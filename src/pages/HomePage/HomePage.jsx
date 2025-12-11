@@ -1,6 +1,7 @@
 import Footer from "../components/Footer/Footer"
 import Header from "../components/Header/Header"
 import ClientsChoice from "./components/ClientsChoice/ClientsChoice"
+import Customers from "./components/Customers/Customers"
 import OnSale from "./components/OnSale/OnSale"
 import Products from "./components/Products/Products"
 import Title from "./components/Title/Title"
@@ -19,6 +20,7 @@ function HomePage() {
           <ClientsChoice/>
           <Advertisement/>
           <OnSale/>
+          <Customers/>
         <Footer/>
 
         </main>
