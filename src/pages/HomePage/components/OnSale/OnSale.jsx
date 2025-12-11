@@ -1,20 +1,40 @@
-import style from './ClientsChoice.module.css'
+import style from './OnSale.module.css'
 
 
-function ClientsChoice() {
+function OnSale() {
 
     return (
         <>
             <div className={style.products}>
                 <div className={style.group}>
-                    <h1 className={style.h1}>Client’s Choice</h1>
+                    <h1 className={style.h1}>On Sale</h1>
                     <div className={style.sort}>
-                        <p className={style.category}>All Bouquets</p>
+                        <p className={style.category}>View All</p>
                         <img src="./img/CaretRight.svg" alt="" />
                     </div>
                 </div>
                 <div className={style.container}>
 
+                    <div className={style.card}>
+                        <img src="./img/Image (6).png" alt="" />
+                        <div className={style.description}>
+                            <h2 className={style.h2}>White Whisper</h2>
+                            <div className={style.price}>
+                                <p className={style.before}>$97</p>
+                                <p className={style.after}>$89</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.card}>
+                        <img src="./img/Image 14.png" alt="" />
+                        <div className={style.description}>
+                            <h2 className={style.h2}>Blush Belle</h2>
+                            <div className={style.price}>
+                                <p className={style.before}>$139</p>
+                                <p className={style.after}>$129</p>
+                            </div>
+                        </div>
+                    </div>
                     <div className={style.card}>
                         <img src="./img/Image 10.png" alt="" />
                         <div className={style.description}>
@@ -35,24 +55,6 @@ function ClientsChoice() {
                             </div>
                         </div>
                     </div>
-                    <div className={style.card}>
-                        <img src="./img/Image 12.png" alt="" />
-                        <div className={style.description}>
-                            <h2 className={style.h2}>Floral Flirt</h2>
-                            <div className={style.price}>
-                                <p className={style.after}>$99</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={style.card}>
-                        <img src="./img/Image 13.png" alt="" />
-                        <div className={style.description}>
-                            <h2 className={style.h2}>Color Crush</h2>
-                            <div className={style.price}>
-                                <p className={style.after}>$110</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -60,4 +62,4 @@ function ClientsChoice() {
     )
 }
 
-export default ClientsChoice
+export default OnSale

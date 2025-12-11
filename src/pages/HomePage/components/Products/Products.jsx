@@ -26,32 +26,29 @@ function Products() {
                     </div>
                 </div>
                 <div className={style.card}>
-                    <img src="./img/Image (7).png" alt="" />
-                    <div className={style.description}>
-                        <h2 className={style.h2}>White Whisper</h2>
-                        <div className={style.price}>
-                            <p className={style.before}>$97</p>
-                            <p className={style.after}>$89</p>
-                        </div>
-                    </div>
-                </div>
-                <div className={style.card}>
                     <img src="./img/Image (8).png" alt="" />
                     <div className={style.description}>
-                        <h2 className={style.h2}>White Whisper</h2>
+                        <h2 className={style.h2}>Red Reverie</h2>
                         <div className={style.price}>
-                            <p className={style.before}>$97</p>
-                            <p className={style.after}>$89</p>
+                            <p className={style.after}>$94</p>
                         </div>
                     </div>
                 </div>
                 <div className={style.card}>
                     <img src="./img/Image (9).png" alt="" />
                     <div className={style.description}>
-                        <h2 className={style.h2}>White Whisper</h2>
+                        <h2 className={style.h2}>Tulip Carnival</h2>
                         <div className={style.price}>
-                            <p className={style.before}>$97</p>
-                            <p className={style.after}>$89</p>
+                            <p className={style.after}>$69</p>
+                        </div>
+                    </div>
+                </div>
+                <div className={style.card}>
+                    <img src="./img/Image (7).png" alt="" />
+                    <div className={style.description}>
+                        <h2 className={style.h2}>Blush Serenity</h2>
+                        <div className={style.price}>
+                            <p className={style.after}>$72</p>
                         </div>
                     </div>
                 </div>
