@@ -32,7 +32,7 @@
     font-size: 36px;
     font-weight: 400;
     color: #205529;
-    margin: 48px 0 28px;
+    margin: 0 0 28px;
 }
 
 .h2 {
@@ -72,6 +72,6 @@
 }
 
 .products {
-    padding: 0 28px 56px;
+    padding: 48px 28px 56px;
     border-bottom: 1px solid rgba(32, 85, 41, 0.1);
 }

@@ -6,7 +6,7 @@ function Header() {
     return (
         <>
             <header>
-                <nav className={style.contact}>
+                <nav className={style.contact2}>
                 <h1 className={style.h1}>La Flora Boutique</h1>
                     <p className={style.p}>CATEGORIES:</p>
                     <ul className={style.ul}>
