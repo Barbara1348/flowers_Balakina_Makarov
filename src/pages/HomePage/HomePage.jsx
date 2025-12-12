@@ -1,5 +1,6 @@
 import Footer from "../components/Footer/Footer"
 import Header from "../components/Header/Header"
+import AboutUs from "./components/AboutUs/AboutUs"
 import ClientsChoice from "./components/ClientsChoice/ClientsChoice"
 import Customers from "./components/Customers/Customers"
 import OnSale from "./components/OnSale/OnSale"
@@ -21,6 +22,7 @@ function HomePage() {
           <Advertisement/>
           <OnSale/>
           <Customers/>
+          <AboutUs/>
         <Footer/>
 
         </main>

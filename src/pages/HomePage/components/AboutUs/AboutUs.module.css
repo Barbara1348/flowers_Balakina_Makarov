@@ -1,0 +1,84 @@
+.info {
+    border: 1px solid #205529;
+    border-radius: 5px;
+    color: #205529;
+    font-family: "Pontano Sans";
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 8px;
+    background-color: #EAE7D9;
+}
+
+.h1 {
+    font-family: "Instrument Serif";
+    font-size: 36px;
+    font-weight: 400;
+    color: #205529;
+    margin: 12px 0 16px;
+}
+
+.h11 {
+    font-family: "Instrument Serif";
+    font-size: 36px;
+    font-weight: 400;
+    color: #205529;
+    font-style: italic;
+}
+
+.section {
+    background-color: #EAE7D9;
+    padding: 54px 24px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(32, 85, 41, 0.1);
+    border-radius: 10px;
+}
+
+.h2 {
+    border: none;
+    border-radius: 5px;
+    color: #FAF2E6;
+    font-family: "Pontano Sans";
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 16px;
+    background-color: #205529;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.div {
+    background-image: url(./img/About.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px 28px;
+}
+
+.container {
+    display: flex;
+    background-color: #FAF2E6;
+    padding: 48px 28px;
+    border-radius: 10px;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.p {
+    color: #205529;
+    font-family: "Pontano Sans";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
