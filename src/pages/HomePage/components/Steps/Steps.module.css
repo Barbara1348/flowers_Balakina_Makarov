@@ -1,0 +1,80 @@
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.h1 {
+    font-family: "Instrument Serif";
+    font-size: 36px;
+    font-weight: 400;
+    color: #205529;
+    margin: 0 0 28px;
+}
+
+.img {
+    border-radius: 0 0 10px 10px;
+}
+
+.sort {
+color: #205529;
+    font-family: "Pontano Sans";
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.products {
+    background-color: #F3EDE0;
+    padding: 48px 28px 56px;
+    border-bottom: 1px solid rgba(32, 85, 41, 0.1);
+}
+
+.button {
+    padding: 11px 15px;
+    color: #205529;
+    font-family: "Instrument Serif";
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgba(32, 85, 41, 0.1);
+    background-color: #FAF2E6;
+    border-radius: 10px;
+}
+
+.class {
+    display: flex;
+    gap: 20px;
+    max-width: 26vw;
+}
+
+.h2 {
+    color: #205529;
+    font-family: "Instrument Serif";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.p {
+    color: rgba(32, 85, 41, 0.8);
+    font-family: "Pontano Sans";
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}

@@ -5,6 +5,7 @@ import ClientsChoice from "./components/ClientsChoice/ClientsChoice"
 import Customers from "./components/Customers/Customers"
 import OnSale from "./components/OnSale/OnSale"
 import Products from "./components/Products/Products"
+import Steps from "./components/Steps/Steps"
 import Title from "./components/Title/Title"
 import Advertisement from "./components/Аdvertisement/Advertisement"
 import style from "./HomePage.module.css"
@@ -23,6 +24,7 @@ function HomePage() {
           <OnSale/>
           <Customers/>
           <AboutUs/>
+          <Steps/>
         <Footer/>
 
         </main>

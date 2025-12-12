@@ -19,7 +19,7 @@ function AboutUs() {
                     <section className={style.section}>
                         <p className={style.p}>Since 2014</p>
                         <h1 className={style.h11}>La Flora <br /> Boutique</h1>
-                        <img className={style.img} src="./img/Illustrations.svg" alt="" />
+                        <img className={style.img} src="./img/Illustrations 2.svg" alt="" />
                     </section>
                 </div>
 
